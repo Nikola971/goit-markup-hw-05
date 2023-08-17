@@ -680,3 +680,6 @@ ul {
 .order_form input:focus + svg {
   fill: #4d5ae5;
 }
+.margin_comment {
+  margin-bottom: 16px;
+}
