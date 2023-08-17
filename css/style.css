@@ -273,7 +273,7 @@ img {
 .menu-nav-index {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
+  /* margin-right: 332px; */
 }
 .address-list-index {
   display: flex;
