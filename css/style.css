@@ -764,3 +764,6 @@ input:checked + label > span {
   background: #404bbf;
   color: #fff;
 }
+.user-privacy {
+  display: block;
+}
