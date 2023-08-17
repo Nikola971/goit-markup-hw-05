@@ -704,6 +704,13 @@ ul {
 .checkbox-box {
   margin-bottom: 24px;
 }
+.checkbox-form {
+  width: 16px;
+  height: 16px;
+  transition-property: background-color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .checkbox-box-label {
   font-size: 12px;
   line-height: 1.17;
@@ -722,4 +729,27 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+input:checked + label > span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.privacy-policy {
+  color: #4d5ae5;
+}
+.send-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
